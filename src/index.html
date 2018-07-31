@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS JS Clock</title>
+    <link rel="stylesheet" href="resources/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>CSS and JS clock</h1>
+
+        <div class="clock-container">
+            <div class="clock-digits" id="clock-main" data-type="digits">
+                <div id="hour" class="hand-digits hour-digits"></div>
+                <div class="colon">:</div>
+                <div id="min" class="hand-digits min-digits"></div>
+                <div class="colon">:</div>
+                <div id="sec" class="hand-digits sec-digits"></div>
+            </div>
+        </div>
+
+
+        <div id="button-container">
+            <button data-type="digits">Digits</button>
+            <button data-type="round">Round</button>
+            <button data-type="bars">Bars</button>
+        </div>
+    </div>
+
+
+    <script src="resources/script.js"></script>
+</body>
+
+</html>
